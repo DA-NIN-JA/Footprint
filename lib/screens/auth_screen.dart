@@ -84,9 +84,9 @@ class _SignUpState extends State<SignUp> {
             child: ListView(
               shrinkWrap: true,
               children: [
-                // const SizedBox(
-                //   height: 60,
-                // ),
+                const SizedBox(
+                  height: 30,
+                ),
                 CircleAvatar(
                   radius: 80,
                   child: Image.asset("assets/logo.png", fit: BoxFit.fill),
@@ -153,7 +153,7 @@ class _SignUpState extends State<SignUp> {
                         contentPadding: EdgeInsets.all(5),
                         prefixIcon: Icon(Icons.key_sharp),
                       ),
-                      keyboardType: TextInputType.visiblePassword,
+                      keyboardType: TextInputType.text,
                     ),
                     InkWell(
                       onTap: () {

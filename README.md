@@ -1,16 +1,12 @@
-# footprint
+# Footprints
 
-A new Flutter project.
+Many small-scale NGOs that operate at the root level. These NGOs often lack funding due to two reasons.
+1. Corporates, who are required the give CSR funds generally tie up with large NGOs hence the small NGOs suffer financially.
+2. Lack of awareness among individuals.
 
-## Getting Started
+Our App Footprints, brings a unique solution to above problem!
 
-This project is a starting point for a Flutter application.
+Our App is a Activity Tracking App, that converts user's physical activity to coins that can be donated by the user to his choice of NGO.
+The project tackles the serious issue of short funding and lack of awareness about NGOs, leading them to stop functioning.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Footprints ppt](https://user-images.githubusercontent.com/67179751/230265121-f919e439-f3e9-4833-a7cb-784f22e7d92f.jpg)

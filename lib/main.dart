@@ -31,13 +31,13 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        initialRoute: WelcomeScreen.id,
+        initialRoute: user == null ? WelcomeScreen.id : BottomNavigation.id,
         routes: {
           WelcomeScreen.id: (context) => WelcomeScreen(),
           AuthPage.id: (context) => AuthPage(),
           HomeScreen.id: (context) => HomeScreen(),
           NGOScreen.id: (context) => NGOScreen(),
-          // UserProfileScreen.id: (context) => UserProfileScreen(),
+          UserProfileScreen.id: (context) => UserProfileScreen(),
           BottomNavigation.id: (context) => BottomNavigation(),
           NGOProfile.id: (context) => NGOProfile(),
         },
